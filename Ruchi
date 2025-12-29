@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Happy Birthday ❤️</title>
+    <style>
+        body {
+            background: linear-gradient(to right, #ff9a9e, #fad0c4);
+            font-family: Arial, sans-serif;
+            text-align: center;
+            color: #fff;
+            padding: 40px;
+        }
+        h1 {
+            font-size: 50px;
+        }
+        p {
+            font-size: 22px;
+            max-width: 700px;
+            margin: auto;
+        }
+        .card {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 30px;
+            border-radius: 20px;
+            margin-top: 30px;
+        }
+        button {
+            padding: 12px 25px;
+            font-size: 18px;
+            border: none;
+            border-radius: 25px;
+            background: #ff4d6d;
+            color: white;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #ff1e4d;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Happy Birthday 💐</h1>
+
+    <div class="card">
+        <p>
+            Today is not just a day, it’s a celebration of **you** 💖  
+            Your smile, kindness, and strength make the world brighter.  
+            I’m so grateful to have you in my life.
+        </p>
+
+        <br>
+
+        <button onclick="showMessage()">Click for a Surprise 🎁</button>
+
+        <p id="surprise" style="display:none; margin-top:20px;">
+            You are special, loved, and truly one of a kind ❤️  
+            May all your dreams come true ✨
+        </p>
+    </div>
+
+    <script>
+        function showMessage() {
+            document.getElementById("surprise").style.display = "block";
+        }
+    </script>
+
+</body>
+</html>
